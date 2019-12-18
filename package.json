@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build": "build-storybook -c .storybook",
-    "start": "cd storybook-static && serve -p 6006"
+    "start": "cd storybook-static && serve -p ${PORT:-6006}"
   },
   "repository": {
     "type": "git",
